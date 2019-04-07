@@ -1,0 +1,60 @@
+/*
+ *Yahong Zheng
+ *ISTE341
+ *Project 1
+ *CSS Page
+*/
+
+body{
+	background-color: #e5e0e0;
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+}
+/*--------------login.php--------------------*/
+#login-container{
+	background-color: #c4c0c0;
+	text-align: center;
+	color: black;
+	padding: 5px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: aut0;
+	display: block;
+}
+label{
+	font-size: 14px;
+	font-weight: bold;
+	width: 100px;
+	padding: 5px;
+}
+/*---------------top navigation----------------*/
+nav{
+	background-color: #FAEBD7;
+	border: 1px solid #FF7F50;
+	padding: 5px;
+	text-align: center;
+	font-size: 40px;
+}
+nav .current{
+	background-color: white;
+	padding: 3px;
+}
+a:link{
+	color: #87CEFA;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #FF7F50;
+	text-decoration: none;
+}
+
+a:hover{
+	color: red;
+	text-decoration: underline;
+}
+
+a:active{
+	color: #E9967A;
+	text-decoration: underline;
+}
